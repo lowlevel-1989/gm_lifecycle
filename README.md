@@ -1,7 +1,7 @@
 GML - event_number is not reliable. it is very variant.
 
 ~~~
-[DEBUG] INIT                                                    X      Y 
+[DEBUG] INIT                                                 X      Y  OBJECT           EVENT
 [DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_CREATE 0
 [DEBUG]---------------------------------------------------> [160, 160] OBJ_BLUE         EV_CREATE 0
 [DEBUG]---------------------------------------------------> [224, 160] OBJ_RED          EV_CREATE 0
