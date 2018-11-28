@@ -1,3 +1,5 @@
+GML - event_number is not reliable. it is very variant.
+
 ~~~
 [DEBUG] INIT                                                    X      Y 
 [DEBUG]------------------------------------------------------> [32,   32] OBJ_CONTROL      EV_CREATE 0
