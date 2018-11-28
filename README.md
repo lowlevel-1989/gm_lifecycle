@@ -1,36 +1,34 @@
-GML - event_number is not reliable. it is very variant.
-
 ~~~
-[DEBUG] INIT                                                 X      Y  OBJECT           EVENT
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_CREATE 0
-[DEBUG]---------------------------------------------------> [160, 160] OBJ_BLUE         EV_CREATE 0
-[DEBUG]---------------------------------------------------> [224, 160] OBJ_RED          EV_CREATE 0
-[DEBUG]---------------------------------------------------> [288, 160] OBJ_YELLOW       EV_CREATE 0
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_GAME_START 2
-[DEBUG]--------------------------------------------------->            ROOM             CREATION CODE
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_ROOM_START 4
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_STEP_BEGIN 1
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_STEP_NORMAL 0
-[DEBUG]---------------------------------------------------> [160, 160] OBJ_BLUE         EV_STEP_NORMAL 0
-[DEBUG]---------------------------------------------------> [224, 160] OBJ_RED          EV_STEP_NORMAL 0
-[DEBUG]---------------------------------------------------> [288, 160] OBJ_YELLOW       EV_STEP_NORMAL 0
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_STEP_END 2
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_DRAW_PRE 76
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_DRAW_BEGIN 72
-[DEBUG]---------------------------------------------------> [288, 160] OBJ_YELLOW       EV_DRAW 0
-[DEBUG]---------------------------------------------------> [224, 160] OBJ_RED          EV_DRAW 0
-[DEBUG]---------------------------------------------------> [160, 160] OBJ_BLUE         EV_DRAW 0
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_DRAW 0
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_DRAW_END 73
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_DRAW_POST 77
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_GUI_BEGIN 74
-[DEBUG]---------------------------------------------------> [288, 160] OBJ_YELLOW       EV_GUI 64
-[DEBUG]---------------------------------------------------> [224, 160] OBJ_RED          EV_GUI 64
-[DEBUG]---------------------------------------------------> [160, 160] OBJ_BLUE         EV_GUI 64
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_GUI 64
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_GUI_END 75
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_DESTROY 1
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_ROOM_END 5
-[DEBUG]---------------------------------------------------> [32,   32] OBJ_CONTROL      EV_GAME_END 3
+                                OUTPUT IN WINDOWS WITH VM RUNTINE
 
+[DEBUG] INIT         X      Y   OBJECT        EVENT_TYPE EVENT_NUMBER   EVENT_NAME
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [0,        0]             EV_CREATE
+[DEBUG]-----------> [160, 160]  OBJ_BLUE      [0,        0]             EV_CREATE
+[DEBUG]-----------> [224, 160]  OBJ_RED       [0,        0]             EV_CREATE
+[DEBUG]-----------> [288, 160]  OBJ_YELLOW    [0,        0]             EV_CREATE
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [7,        2]             EV_GAME_START
+[DEBUG]----------->             ROOM                                    CREATION CODE
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [7,        4]             EV_ROOM_START
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [3,        1]             EV_STEP_BEGIN
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [3,        0]             EV_STEP_NORMAL
+[DEBUG]-----------> [160, 160]  OBJ_BLUE      [3,        0]             EV_STEP_NORMAL
+[DEBUG]-----------> [224, 160]  OBJ_RED       [3,        0]             EV_STEP_NORMAL
+[DEBUG]-----------> [288, 160]  OBJ_YELLOW    [3,        0]             EV_STEP_NORMAL
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [3,        2]             EV_STEP_END
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [8,       76]             EV_DRAW_PRE
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [8,       72]             EV_DRAW_BEGIN
+[DEBUG]-----------> [288, 160]  OBJ_YELLOW    [8,        0]             EV_DRAW
+[DEBUG]-----------> [224, 160]  OBJ_RED       [8,        0]             EV_DRAW
+[DEBUG]-----------> [160, 160]  OBJ_BLUE      [8,        0]             EV_DRAW
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [8,        0]             EV_DRAW
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [8,       73]             EV_DRAW_END
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [8,       77]             EV_DRAW_POST
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [8,       74]             EV_GUI_BEGIN
+[DEBUG]-----------> [288, 160]  OBJ_YELLOW    [8,       64]             EV_GUI
+[DEBUG]-----------> [224, 160]  OBJ_RED       [8,       64]             EV_GUI
+[DEBUG]-----------> [160, 160]  OBJ_BLUE      [8,       64]             EV_GUI
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [8,       64]             EV_GUI
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [8,       75]             EV_GUI_END
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [7,        5]             EV_ROOM_END
+[DEBUG]-----------> [32,   32]  OBJ_CONTROL   [7,        3]             EV_GAME_END
 ~~~
