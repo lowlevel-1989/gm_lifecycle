@@ -88,6 +88,9 @@ if (!variable_global_exists("__scr_debug_init")) {
     global.__scr_debug_init = false;
 }
 
+// FIX HTML5
+if (array_height_2d(global.EVENT) <= event_type) return -1;
+
 for (var i=0; i < array_length_2d(global.EVENT, event_type); i++){
     var ev = global.EVENT[event_type, i];
     if (ev[? "event_number"] != event_number) continue;
