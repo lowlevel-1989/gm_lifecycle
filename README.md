@@ -2,6 +2,8 @@
 
 1. [HTML5: "event_type" and "event_number" return incorrect values](https://bugs.yoyogames.com/view.php?id=30164)
 
+
+- OUTPUT
 ~~~
                                 OUTPUT IN WINDOWS WITH VM RUNTINE
 
