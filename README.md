@@ -1,4 +1,4 @@
-### BUGS IN HTML5
+- BUGS
 
 1. [HTML5: "event_type" and "event_number" return incorrect values](https://bugs.yoyogames.com/view.php?id=30164)
 
